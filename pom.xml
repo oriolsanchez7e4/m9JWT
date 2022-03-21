@@ -14,9 +14,6 @@
 
     <name>jwt</name>
     <description>jwt</description>
-    <properties>
-        <java.version>11</java.version>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
