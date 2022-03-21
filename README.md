@@ -6,6 +6,7 @@ rutas:
     /employee
     /login
     /usuaris
+    /hello
 
 
 Usuari creat:
