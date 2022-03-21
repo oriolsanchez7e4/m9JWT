@@ -2,20 +2,23 @@
 
 
 rutas:
-/employee
-/login
-/usuaris
+
+    /employee
+    /login
+    /usuaris
 
 
 Usuari creat:
-{
-  "username":"Oriol",
-  "password":"password",
-  "avatar":"http://imatge.com"
-}
+
+    {
+      "username":"Oriol",
+      "password":"password",
+      "avatar":"http://imatge.com"
+    }
 
 Usuari:
-@Id
+    
+    @Id
     @GeneratedValue
     private Long id; //identificador autonumèric
     @Column(unique = true)
@@ -25,16 +28,17 @@ Usuari:
     private String rol = "USER"; //per defecte
     
 UsuariDTO:
-private String username;
+
+    private String username;
     private String avatar;
     private String rol;
     
     
 Employee:
- @javax.persistence.Id
+    
+    @javax.persistence.Id
     @Column(name = "id", nullable = false)
     private Long id;
-
     @Id
     @GeneratedValue
     private String nom;
